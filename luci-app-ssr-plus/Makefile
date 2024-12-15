@@ -82,7 +82,7 @@ endchoice
 
 choice
 	prompt "Shadowsocks Client Selection"
-	default PACKAGE_$(PKG_NAME)_INCLUDE_Shadowsocks_Rust_Client if aarch64||arm||i386||mips||mipsel||x86_64
+	#default PACKAGE_$(PKG_NAME)_INCLUDE_Shadowsocks_Rust_Client if aarch64||arm||i386||mips||mipsel||x86_64
 	default PACKAGE_$(PKG_NAME)_INCLUDE_Shadowsocks_Libev_Client
 
 	config PACKAGE_$(PKG_NAME)_INCLUDE_Shadowsocks_NONE_Client
